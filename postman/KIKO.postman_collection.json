@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "162e789b-5096-4045-8ff4-0186f320c524",
+		"name": "KIKO",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "reserve",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dateTime\" : \"2021-01-26T12:40\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/v1/flat/ID_FLAT_1/reserve",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"flat",
+						"ID_FLAT_1",
+						"reserve"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "view",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/flat/ID_FLAT_1/view",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"flat",
+						"ID_FLAT_1",
+						"view"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "approve",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/flat/ID_FLAT_1/approve/5c083d3b-2317-4dfe-a1e4-7cae416631e8",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"flat",
+						"ID_FLAT_1",
+						"approve",
+						"5c083d3b-2317-4dfe-a1e4-7cae416631e8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "reject",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/flat/ID_FLAT_1/reject/5c083d3b-2317-4dfe-a1e4-7cae416631e8",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"flat",
+						"ID_FLAT_1",
+						"reject",
+						"5c083d3b-2317-4dfe-a1e4-7cae416631e8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cancel",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/flat/ID_FLAT_1/cancel/5a972f2d-4e1e-4c3a-8339-689bd4525d23",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"flat",
+						"ID_FLAT_1",
+						"cancel",
+						"5a972f2d-4e1e-4c3a-8339-689bd4525d23"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
